@@ -50,7 +50,7 @@ Dil: Python (C++'tan taşındı ve optimize edildi).
 
 İletişim: Mesleki eğitimimden dolayı İngilizcem sınırlı. Dokümantasyon için çeviri araçları kullanıyorum ancak kodumun ve kurduğum mantığın çalışmamı en doğru şekilde temsil ettiğine inanıyorum.
 
-==================================================================================================================
+============================================================================================================
 Russian/Rusça/Русский
 
 ПРЕЗЕНТАЦИЯ ПРОЕКТА 2026: Автоматизированный инструмент анализа сопел ракетных двигателей
