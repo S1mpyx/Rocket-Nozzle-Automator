@@ -1,78 +1,174 @@
-English/ingilizce/Английский
+# 🚀 Rocket Nozzle Automator
 
-2026 PROJECT SHOWCASE: Automated Rocket Nozzle Analysis Tool
-Author: Yiğit Dağlı
-Project Goal: Simplifying Aerospace Complexity through Python Automation
+---
 
-1. The Vision
-Theoretical aerospace engineering is often buried under manual calculations and rigid textbooks. As a 16-year-old developer from a vocational IT background, I believe that if the math is too complex to enter manually, it should be automated. My goal was to create a bridge between complex thermodynamic formulas and practical application.
+# 🇹🇷 Türkçe
 
-2. The Problem
-Most professional liquid rocket engine (LRE) simulation codes are designed for senior engineers. They require manual entry of dozens of variables. For a student or a hobbyist, this high "barrier to entry" makes it impossible to run quick iterations.
+## Rocket Nozzle Automator
 
-3. The Innovation: "Index-Based Input System"
-I developed a Smart Indexing System in Python. Instead of forcing the user to calculate every variable from scratch, I created a dynamic database of nozzle types and fuel properties.
+**Geliştirici:** Yiğit Dağlı
 
-How it works: The user enters a specific "Index" (e.g., Index 01 for a specific nozzle configuration), and the program automatically pulls the corresponding constants and executes the nozzle performance analysis.
+## 📌 Proje Hakkında
 
-4. Technical Resilience & Reverse Engineering
-During the development process, I faced a major data loss due to a system format. However, I managed to recover the entire logic by reverse engineering my own compiled .exe file. This process allowed me to optimize the backend and deeply understand Python’s bytecode structure.
+Rocket Nozzle Automator, sıvı roket motorlarında kullanılan **Laval Nozzle (de Laval Nozulu)** tasarımlarının temel analizlerini otomatik olarak gerçekleştirmek amacıyla geliştirilmiş eğitim odaklı bir Python uygulamasıdır.
 
-5. Developer Note
-Language: Python (Ported and optimized from C++).
+Bu proje eğitim amacıyla geliştirilmiştir.
 
-Communication: Due to my vocational education, my English is limited. I use translation tools for documentation, but I believe my code and logic provide the most accurate representation of my work.
+Kullanılan hesaplama yöntemleri ve bazı yazılım bileşenleri açık kaynak projelerden ve herkese açık mühendislik kaynaklarından yararlanılarak yeniden düzenlenmiş, geliştirilmiş ve tek bir sistem altında birleştirilmiştir.
 
-==================================================================================================================
+> **Proje Durumu:** İlk geliştirme sürecinde oluşturulan kaynak kodlar yaşanan teknik aksaklıklar nedeniyle kaybolmuştur. Bu GitHub deposu projenin çalışma mantığını, dokümantasyonunu ve geliştirme sürecini temsil etmektedir.
 
-Turkish/Türkçe/турецкий
+---
 
-2026 PROJE TANITIMI: Otomatik Roket Nozzle Analiz Aracı
-Yazar: Yiğit Dağlı
-Proje Amacı: Python Otomasyonu ile Havacılık ve Uzay Karmaşıklığını Basitleştirmek
+## 🎯 Amaç
 
-1. Vizyon
-Teorik havacılık mühendisliği genellikle manuel hesaplamaların ve ağır ders kitaplarının arasında kayboluyor. Bilişim teknolojileri eğitimi alan 16 yaşında bir geliştirici olarak şuna inanıyorum: Eğer matematik manuel olarak girilemeyecek kadar karmaşıksa, o zaman otomatikleştirilmelidir. Hedefim, karmaşık termodinamik formüller ile pratik uygulama arasında bir köprü kurmaktı.
+Bu projenin amacı;
 
-2. Sorun
-Çoğu profesyonel sıvı roket motoru (LRE) simülasyon kodu, kıdemli mühendisler için tasarlanmıştır. Bu kodlar düzinelerce değişkenin manuel olarak girilmesini gerektirir. Bir öğrenci veya meraklı (hobbyist) için bu yüksek "giriş bariyeri", hızlı denemeler yapmayı ve temel mantığı öğrenmeyi imkansız hale getirir.
+- Manuel hesaplamaları azaltmak,
+- Nozzle analizlerini otomatikleştirmek,
+- Öğrencilerin nozzle tasarım mantığını daha kolay öğrenmesini sağlamak,
+- Havacılık ve uzay mühendisliği alanına ilgi duyan kişilere eğitim amaçlı bir araç sunmaktır.
 
-3. Yenilik: "İndeks Tabanlı Giriş Sistemi"
-Python'da Akıllı İndeksleme Sistemi geliştirdim. Kullanıcıyı her değişkeni sıfırdan hesaplamaya zorlamak yerine, nozzle tipleri ve yakıt özelliklerinden oluşan dinamik bir veri tabanı oluşturdum.
+---
 
-Nasıl Çalışır: Kullanıcı belirli bir "İndeks" girer (örneğin belirli bir nozzle konfigürasyonu için İndeks 01) ve program otomatik olarak ilgili tüm sabitleri çekerek nozzle performans analizini saniyeler içinde gerçekleştirir.
+## ⚙️ Nasıl Çalışır?
 
-4. Teknik Direnç ve Tersine Mühendislik
-Geliştirme sürecinde, sistem formatı nedeniyle büyük bir veri kaybı yaşadım. Ancak, kendi derlediğim .exe dosyamı tersine mühendislik (reverse engineering) yöntemleriyle patlatarak tüm mantığı geri kazanmayı başardım. Bu süreç, Python'un bytecode yapısını ve yürütülebilir dosyaların mimarisini derinlemesine anlamamı sağladı.
+Kullanıcının onlarca parametreyi tek tek girmesi yerine geliştirdiğim **İndeks Tabanlı Giriş Sistemi** sayesinde yalnızca gerekli yakıt özellikleri girilerek nozzle hesaplamaları otomatik olarak gerçekleştirilir.
 
-5. Geliştirici Notu
-Dil: Python (C++'tan taşındı ve optimize edildi).
+Program;
 
-İletişim: Mesleki eğitimimden dolayı İngilizcem sınırlı. Dokümantasyon için çeviri araçları kullanıyorum ancak kodumun ve kurduğum mantığın çalışmamı en doğru şekilde temsil ettiğine inanıyorum.
+- Yakıt özelliklerini kullanır,
+- Nozzle geometrisini hesaplar,
+- Performans analizlerini gerçekleştirir,
+- Sonuçları **iki boyutlu (2D) nozzle geometrisi** olarak görsel şekilde sunar.
 
-============================================================================================================
-Russian/Rusça/Русский
+Bu yaklaşım sayesinde kullanıcı her hesaplamada tüm değişkenleri yeniden girmek zorunda kalmaz.
 
-ПРЕЗЕНТАЦИЯ ПРОЕКТА 2026: Автоматизированный инструмент анализа сопел ракетных двигателей
-Автор: Йигит Даглы (Yiğit Dağlı)
+---
 
-Цель проекта: Упрощение сложности аэрокосмического проектирования с помощью автоматизации на Python.
+## 🛠 Özellikler
 
-1. Видение
-Теоретическая аэрокосмическая инженерия часто скрыта за ручными расчетами и сложными учебниками. Как 16-летний разработчик из профессионального ИТ-лицея, я считаю: если расчеты слишком сложны для ручного ввода, они должны быть автоматизированы. Моя цель — создать мост между сложными термодинамическими формулами и практическим применением.
+- 🚀 İndeks tabanlı giriş sistemi
+- 📐 Otomatik nozzle geometrisi oluşturma
+- 📊 Performans hesaplamaları
+- 📈 2D nozzle görselleştirmesi
+- 🐍 Python tabanlı otomasyon
 
-2. Проблема
-Большинство профессиональных кодов для моделирования жидкостных ракетных двигателей (ЖРД) предназначены для опытных инженеров. Они требуют ручного ввода десятков переменных. Для студента или энтузиаста такой высокий «порог входа» делает невозможным проведение быстрых итераций.
+---
 
-3. Инновация: «Система ввода на основе индексов»
-Я разработал интеллектуальную систему индексации на Python. Вместо того чтобы заставлять пользователя рассчитывать каждую переменную с нуля, я создал динамическую базу данных типов сопел и свойств топлива.
+## 💻 Kullanılan Teknolojiler
 
-Принцип работы: Пользователь вводит определенный «Индекс» (например, Индекс 01 для конкретной конфигурации сопла), и программа автоматически извлекает соответствующие константы и выполняет анализ характеристик сопла.
+- Python
+- NumPy
+- Matplotlib
 
-4. Техническая устойчивость и реверс-инжиниринг
-В процессе разработки я столкнулся с серьезной потерей данных из-за форматирования системы. Однако мне удалось восстановить всю логику, выполнив обратную разработку (реверс-инжиниринг) моего собственного скомпилированного .exe файла. Этот процесс позволил мне оптимизировать бэкенд и глубоко изучить структуру байт-кода Python.
+---
 
-5. Примечание разработчика
-Язык программирования: Python (перенесен и оптимизирован с C++).
+## 👨‍💻 Katkılarım
 
-Коммуникация: В связи с обучением в техническом лицее мой уровень английского языка ограничен. Я использую инструменты перевода для документации, но верю, что мой код и логика являются наиболее точным представлением моей работы.
+Bu proje açık kaynak kodlar üzerine inşa edilmiştir.
+
+Kendi katkılarım;
+
+- İndeks tabanlı veri sistemi
+- Açık kaynak kodların yeniden düzenlenmesi
+- Yazılım mimarisinin geliştirilmesi
+- Otomasyon mantığının geliştirilmesi
+- Kod organizasyonu
+- Performans optimizasyonu
+- Eğitim amaçlı kullanılabilecek hale getirilmesi
+
+---
+
+## 📖 Hedef Kullanıcılar
+
+- Havacılık ve Uzay Mühendisliği öğrencileri
+- Makine Mühendisliği öğrencileri
+- Roket teknolojilerine ilgi duyanlar
+- Python öğrenen geliştiriciler
+
+---
+
+# 🇷🇺 Русский
+
+## Rocket Nozzle Automator
+
+**Разработчик:** Йигит Даглы (Yiğit Dağlı)
+
+## 📌 О проекте
+
+Rocket Nozzle Automator — образовательное приложение на Python для автоматического анализа сопел Лаваля, используемых в жидкостных ракетных двигателях.
+
+Проект создан исключительно в образовательных целях.
+
+Используемые методы расчёта и некоторые программные компоненты основаны на открытых исходных проектах и общедоступных инженерных материалах, которые были переработаны и объединены в единую систему.
+
+> **Статус проекта:** Исходный код первой версии был утерян из-за технических неполадок, возникших в процессе разработки. Данный репозиторий GitHub представляет документацию проекта, его архитектуру и процесс разработки.
+
+---
+
+## 🎯 Цель проекта
+
+Основные задачи проекта:
+
+- уменьшить количество ручных расчётов;
+- автоматизировать анализ сопел;
+- помочь студентам лучше понять принципы проектирования сопел;
+- предоставить удобный образовательный инструмент.
+
+---
+
+## ⚙️ Принцип работы
+
+Вместо ручного ввода большого количества параметров пользователь вводит только необходимые характеристики топлива.
+
+Разработанная мной **система индексного ввода** автоматически:
+
+- рассчитывает геометрию сопла;
+- выполняет анализ характеристик;
+- отображает **двухмерную (2D) модель сопла**.
+
+Это значительно упрощает процесс расчётов.
+
+---
+
+## 🛠 Возможности
+
+- 🚀 Индексная система ввода
+- 📐 Автоматическое построение геометрии сопла
+- 📊 Анализ характеристик
+- 📈 Визуализация сопла в формате 2D
+- 🐍 Автоматизация на Python
+
+---
+
+## 💻 Используемые технологии
+
+- Python
+- NumPy
+- Matplotlib
+
+---
+
+## 👨‍💻 Мой вклад
+
+Проект построен на основе открытого исходного кода.
+
+Мой вклад включает:
+
+- разработку индексной системы данных;
+- переработку открытого исходного кода;
+- разработку архитектуры программы;
+- автоматизацию вычислений;
+- организацию структуры проекта;
+- оптимизацию программы;
+- адаптацию проекта для образовательного использования.
+
+---
+
+## 📖 Для кого предназначен проект
+
+- студенты авиационных и аэрокосмических специальностей;
+- студенты машиностроительных направлений;
+- энтузиасты ракетной техники;
+- разработчики, изучающие Python.
