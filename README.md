@@ -96,19 +96,7 @@ Bu yaklaşım klasik manuel hesaplamalara göre daha hızlı ve daha kullanıcı
 
 ---
 
-# 📂 Repository İçeriği
 
-```
-Rocket-Nozzle-Automator/
-│
-├── README.md
-├── RocketNozzleAutomator.exe
-├── docs/
-├── images/
-└── releases/
-```
-
----
 
 # 👨‍💻 Katkılarım
 
@@ -266,13 +254,7 @@ Rocket Nozzle Automator — образовательное приложение 
 
 ---
 
-## ⭐ License
 
-This project is published for **educational purposes only**.
-
-Commercial use is not permitted without permission of the developer.
-
----
 
 **Developer**
 
