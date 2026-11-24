@@ -188,6 +188,15 @@ Tarafımdan geliştirilen bölümler:
 
 ---
 
+# 👤 Geliştirici Hakkında
+
+Ben Yiğit Dağlı. Türkiye'de Bilişim Teknolojileri alanında, yazılım geliştirme dalında eğitim gören bir meslek lisesi öğrencisiyim.
+Yazılımın yanı sıra havacılık ve uzay mühendisliğine, özellikle roket motorlarına ve mühendislik tasarımına ilgi duyuyorum.
+Merak ettiğim konuları araştırmayı, yeni şeyler öğrenmeyi ve öğrendiklerimi küçük projelere dönüştürmeyi seviyorum.
+Rocket Nozzle Automator, bu ilgi alanlarımı bir araya getirme ve programlama yoluyla mühendislik hesaplamalarını keşfetme isteğimden doğdu.
+Bu projeyi geliştirirken hem yazılım alanındaki bilgilerimi kullanmayı hem de roket lülelerinin çalışma prensipleri hakkında daha fazla şey öğrenmeyi amaçladım.
+
+---
 # 🇷🇺 Русский
 
 ## 👨‍💻 Разработчик
@@ -361,7 +370,14 @@ Tarafımdan geliştirilen bölümler:
 Проект распространяется **исключительно в образовательных целях**.
 
 ---
+# 👤 Об авторе
+
+Меня зовут Йигит Даглы. Я учусь в профессиональной технической школе в Турции по специальности «Разработка программного обеспечения» в области информационных технологий.
+Помимо программирования, я интересуюсь аэрокосмической инженерией, особенно ракетными двигателями и инженерным проектированием.
+Мне нравится изучать интересующие меня темы, узнавать новое и воплощать полученные знания в небольших проектах.
+Rocket Nozzle Automator появился благодаря моему желанию объединить эти интересы и изучать инженерные расчёты с помощью программирования.
+Работая над этим проектом, я хотел не только применить свои знания в области программирования, но и лучше понять принципы работы ракетных сопел.
+---
 
 ## 👨‍💻 Разработчик
-
 **Йигит Даглы (Yiğit Dağlı)**
